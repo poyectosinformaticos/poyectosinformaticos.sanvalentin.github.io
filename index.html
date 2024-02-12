@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+<style>
+    body {
+        size: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #FEF1E1;
+        color: #333;
+        /* Negro medio vintage */
+        font-family: 'Playfair Display', serif;
+        /* Otras propiedades de estilo aquí */
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .centered-text,
+    .sub-text {
+        opacity: 0;
+        transform: translateY(0px);
+        transition: opacity 2s ease, transform 2s ease;
+    }
+
+    .centered-text {
+        text-align: center;
+        margin-bottom: 5px;
+        /* Espacio entre A1 y A2 */
+    }
+
+    .sub-text {
+        text-align: right;
+        margin-bottom: 5px;
+        /* Espacio entre A1 y A2 */
+    }
+</style>
+
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mi Página Web</title>
+    <title>💌Para Melani</title>
 </head>
+
 <body>
     <div class="container">
         <div class="centered-text" id="textA1">
-            <h1>Texto del Sitio Web</h1>
+            <h1>✧Texto del Sitio Web✧</h1>
         </div>
         <div class="sub-text" id="textA2">
             <p>Subtexto centrado a la derecha inferior</p>
@@ -18,4 +58,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
