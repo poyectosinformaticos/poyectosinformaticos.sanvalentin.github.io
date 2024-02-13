@@ -17,10 +17,19 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 20px;
+        display: flex;
+        /* Agregado para usar flexbox */
+        flex-direction: column;
+        /* Alinear verticalmente en columna */
+        height: 100vh;
+        /* Hacer que el contenedor ocupe el 100% de la altura visible */
+        justify-content: center;
+        /* Centrar verticalmente */
     }
 
     .centered-text,
     .sub-text {
+        font-size: large;
         opacity: 0;
         transform: translateY(0px);
         transition: opacity 2s ease, transform 2s ease;
@@ -49,10 +58,10 @@
 <body>
     <div class="container">
         <div class="centered-text" id="textA1">
-            <h1>✧Texto del Sitio Web✧</h1>
+            <h1>✧Regalo de San Valentin para Melani✧</h1>
         </div>
         <div class="sub-text" id="textA2">
-            <p>Subtexto centrado a la derecha inferior</p>
+            <p>Espero que disfrutes de este pequeño detalle, hecho con mucho amor especialmente para ti.</p>
         </div>
     </div>
 
