@@ -24,9 +24,9 @@ var Frases = [
     ["Tus ojos reflejan la belleza de tu alma.", "Hermosura"],
     ["Tu mirada tierna me derrite el corazón.", "Ternura"],
     ["Tus abrazos cálidos me hacen sentir en casa.", "Cariño"],
-    ["Recorda que eres una persona única y valiosa, con mucho que ofrecer."],
-    ["Te amo con todo mi corazón."],
-    ["Nuestras conversaciones."]
+    ["Recorda que eres una persona única y valiosa, con mucho que ofrecer."," "],
+    ["Te amo con todo mi corazón."," "],
+    ["Nuestras conversaciones."," "]
 ];
 
 document.addEventListener('DOMContentLoaded', function () {
