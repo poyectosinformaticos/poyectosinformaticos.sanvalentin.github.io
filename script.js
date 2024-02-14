@@ -16,7 +16,7 @@ var Frases = [
     ["Tu timidez esconde una fuerza interior que brilla con luz propia.", "Timidez"],
     ["Tu amor es un faro que me guía en los momentos más oscuros.", "Amor"],
     ["Tus abrazos son un refugio donde me siento a salvo y amado.", "Cariño"],
-    ["Tus pequeños detalles me demuestran que me conoces y me quieres de verdad.", "Detallista"],
+    ["Tus pequeños detalles me demuestran que me conoces y me queres de verdad.", "Detallista"],
     ["Tu sensibilidad me hace sentir querido y apreciado.", "Ternura"],
     ["Tu esencia única me enamora cada día más.", "Carisma"],
     ["Me siento afortunado de tenerte en mi vida.", "Gratitud"],
