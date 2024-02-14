@@ -26,7 +26,8 @@ var Frases = [
     ["Tus abrazos cálidos me hacen sentir en casa.", "Cariño"],
     ["Recorda que eres una persona única y valiosa, con mucho que ofrecer."," "],
     ["Te amo con todo mi corazón."," "],
-    ["Nuestras conversaciones."," "]
+    ["Nuestras conversaciones."," "],
+    ["En nuestra complicidad, se encuentra la ternura que hace que cada instante se vuelva un dulce susurro de amor compartido.","Dulzura y Ternura"]
 ];
 
 document.addEventListener('DOMContentLoaded', function () {
